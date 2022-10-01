@@ -5,14 +5,14 @@
     font-family: 'Roboto', sans-serif;
 }
 
-
 nav{
     display: flex;
     position: absolute;
-    background-color: transparent;
+    background-color: black;
     justify-content: space-between;
     height: 60px;
     z-index: 200;
+    width: 100%;
     
     
 }
@@ -51,82 +51,44 @@ nav ul li a{
     font-size: 18px;
     padding-top: 22px;
     padding-right: 10px;
-
-
-
 }
 
-.corpo .texto-corpo{
-    background-image: url(../img/PHOTOSHOPbigstock-d-Rendering-Cloud-Computing-267217441_1024X684.png); height: 100vh; width: 84%; top: 0%; left: 0%;
+.corpo .corpo-texto {
+    background-image: url(../img/PHOTOSHOPbigstock-d-Rendering-Cloud-Computing-267217441_1024X684.png); height: 15vh; width: 100%; top: 0%; left: 0%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: absolute;
     display: flex;
+    color: white;
+    align-content: center;
+    top: 0%;
+    left: 0%;
     align-items: baseline;
-    flex-direction: column;
-    color: white;
-    padding-top: 12rem;
-    padding-left: 15rem;
+    padding-top: 8rem;
+    padding-left: 45rem;
+    font-size: 35px;
+    
+}
+.corpo2 .corpo-texto2{
+    margin-top: 2rem;
+    margin-left: 12px;
+    
+    
+}
+
+.corpo2 .corpo-texto2 img{
+    height: 2%;
+    width: 2%;
+    padding-top: 22px;
+    margin-right: 12rem;
+    display: flex;
+    display: block;
     z-index: 100;
-    position: absolute;
-    
-    
-    
-
-    
-}
-
-.corpo .texto-corpo h1{
-    font-size: 44px;
-    display: flex;
-    
-}
-.corpo .texto-corpo h3{
-    font-size: 22px;
-    
-}
-
-.conhecimentosclasse, .projectosclasse{
-    list-style: none;
-}
-.projectosclasse{
-    padding-bottom: 2%;
-}
-.corpo .texto-corpo img{
-    height: 42%;
-    padding-left: 0rem;
 
 }
-.corpo .texto-corpo button a {
-    border-style: none;
+
+.corpo2 .corpo-texto2 .face{
     text-decoration: none;
-    color: white;
-    font-size: 22px;
-    border: 0;
-    cursor: pointer;
-    background: transparent;
-    background-color: black;
-    border-color:white;
-    padding: 5pt;
-
-    
+    color: black;
 }
-.rodape{
-    display: flex;
-    color: white;
-    position: absolute;
-    z-index: 500;
-    justify-content: center;
-    align-items: flex-end;
-}
-
-
-
-
-
-
-
-
-
-
 
